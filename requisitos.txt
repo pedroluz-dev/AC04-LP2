@@ -1,0 +1,29 @@
+Clínica     -> Médicos
+(Atributos) -> Pacientes
+
+Médico      -> CRM
+(Atributos) -> CPF
+            -> RG
+            -> Nome
+            -> Telefone
+            -> Salário
+
+Médico      -> Ortopedia
+(Métodos)   -> Traumatologia
+            -> Infectologia
+            -> Clínico
+
+Pacientes   -> Quarto
+(Atributos) -> Nome
+            -> Endereço
+            -> RG
+            -> Telefone
+            -> Data de nascimento
+
+Quarto      -> Andar
+(Atributos) -> Número
+
+Histórico   -> Data
+(Atributos) -> Hora
+            -> Observação
+            -> Nome do Médico
